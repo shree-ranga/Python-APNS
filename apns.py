@@ -8,7 +8,7 @@ cert_file = "/path/to/cert.pem"
 development_server = "api.sandbox.push.apple.com"
 port = 2197
 url = f"/3/device/{token}"
-data = json.dumps(payload, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
+# data = json.dumps(payload, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
 apns_push_type = "alert"
 apns_topic = "your-app-bundle-id"
 apns_priority = "10"
